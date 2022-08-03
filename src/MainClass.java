@@ -22,7 +22,7 @@ public class MainClass {
             else{
                 System.out.print("Şifreyi yanlış girdiniz. Şifrenizi sıfırlamak ister misiniz? (Y/N) > ");
                 String cevap=s.nextLine();
-                if(cevap=="N") System.out.print("Çıkış yapıldı.");
+                if(cevap.equals("N")) System.out.print("Çıkış yapıldı.");
                 else{
                     System.out.print("Kullanıcı adı giriniz > ");
                     giris=s.nextLine();
